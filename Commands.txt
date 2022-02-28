@@ -16,3 +16,12 @@ $ git add filename
 Removing a file from the staging area
 $ git rm --cached filename
 $ git rm -f --cached filename
+
+Commit
+$ git commit -m "Message for your commit"
+
+Check the commit history
+$ git log
+
+Switch between commits
+$ git checkout commit-id
